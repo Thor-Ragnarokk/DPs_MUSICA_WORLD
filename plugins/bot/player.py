@@ -574,8 +574,8 @@ async def not_chat(_, m: Message):
                 InlineKeyboardButton("Support", url="https://t.me/Mntlinks"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/Thor-Ragnarokk/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1"),
             ]
          ]
-    k=await m.reply_photo(photo="https://telegra.ph/file/9f51f2cdacbc3e6cc8144.jpg", caption="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/Thor-Ragnarokk/RadioPlayerV3) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply_photo(photo="https://telegra.ph/file/9f51f2cdacbc3e6cc8144.jpg", caption="**Sorry, You Can't Use This Bot In This Group! 🤷‍♂️ But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
