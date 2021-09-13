@@ -64,7 +64,7 @@ class Config:
     EDIT_TITLE=os.environ.get("EDIT_TITLE", True)
     if EDIT_TITLE == "False":
         EDIT_TITLE=None
-    RADIO_TITLE=os.environ.get("RADIO_TITLE", "DPs Musica World")
+    RADIO_TITLE=os.environ.get("RADIO_TITLE", "24/7 Radio😜")
     if RADIO_TITLE == "False":
         RADIO_TITLE=None
     DURATION_LIMIT=int(os.environ.get("MAXIMUM_DURATION", 15))
