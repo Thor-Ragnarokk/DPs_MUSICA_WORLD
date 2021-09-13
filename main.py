@@ -183,4 +183,4 @@ async def restart(_, message: Message):
 
 idle()
 bot.stop()
-print("\n\nRadio Player Bot Stopped, Join @DPs_Musica_World)
+print("\n\nRadio Player Bot Stopped, Join @DPs_Musica_World 🥺")
