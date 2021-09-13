@@ -34,7 +34,7 @@ buttons = [
                 InlineKeyboardButton("Support", url="https://t.me/Mntlinks"),
             ],
             [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/Thor-Ragnarokk/RadioPlayerV3"),
+                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1"),
             ]
          ]
 
@@ -47,7 +47,7 @@ async def search(client, query):
             InlineQueryResultArticle(
                 title="Deploy Your Own Radio Player",
                 thumb_url="https://telegra.ph/file/9f51f2cdacbc3e6cc8144.jpg",
-                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@DPs_Musica_World | @Mntlinks 👑</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@Movies_Now_Tamil_1 | @Mntlinks 👑</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
