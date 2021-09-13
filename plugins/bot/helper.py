@@ -28,7 +28,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @DPs_Musica_World 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @MnTlinks 😉!"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -61,7 +61,7 @@ HELP_TEXT = """
 \u2022 `/restart` - update & restart the bot
 
 © **Powered By** : 
-**@Dps_Musica_World | @MntLinks** 🎧
+**@Movies_Now_Tamil_1 | @MntLinks** 🎧
 """
 
 
@@ -194,7 +194,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("Status Here", url="https://t.me/dp_editing_and_creations"),
-                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3"),
+                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
@@ -229,7 +229,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("Status Here", url="https://t.me/dp_editing_and_creations"),
-                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3"),
+                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -254,7 +254,7 @@ async def help(client, message):
             ],
             [
                 InlineKeyboardButton("Status Here", url="https://t.me/dp_editing_and_creations"),
-                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3"),
+                InlineKeyboardButton("Source Code", url="https://github.com/Thor-Ragnarokk/RadioPlayerV3/tree/Master1"),
             ],
             [
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
