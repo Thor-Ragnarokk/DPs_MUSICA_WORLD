@@ -64,7 +64,7 @@ def stop_and_restart():
 
 bot.run(main())
 bot.start()
-print("\n\nRadio Player Bot Started, Join @DPs_Musica_World !")
+print("\n\nRadio Player Bot Started, Join @MntLinks !")
 bot.send(
     functions.bots.SetBotCommands(
         commands=[
@@ -176,11 +176,11 @@ async def restart(_, message: Message):
         target=stop_and_restart
         ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @DPs_Musica_World For More!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @MntLinks For More!**")
         await k.reply_to_message.delete()
     except:
         pass
 
 idle()
 bot.stop()
-print("\n\nRadio Player Bot Stopped, Join @DPs_Musica_World 🥺")
+print("\n\nRadio Player Bot Stopped, Join @MntLinks 🥺")
